@@ -1,0 +1,27 @@
+{
+  "config": {
+    "model": "meta-llama/Llama-2-7b-hf",
+    "num_prompts": 1000,
+    "concurrency": 50,
+    "prompt_length": 512,
+    "output_length": 256,
+    "temperature": 0.7,
+    "top_p": 0.9
+  },
+  "results": {
+    "total_time": 123.45,
+    "total_tokens": 256000,
+    "throughput_tokens_per_sec": 2073.95,
+    "requests_per_sec": 8.10,
+    "mean_latency": 6.17,
+    "p50_latency": 5.82,
+    "p95_latency": 11.34,
+    "p99_latency": 16.18,
+    "mean_ttft": 0.31,
+    "mean_tpot": 0.024,
+    "gpu_memory_used_gb": 24.3
+  },
+  "timestamp": "2025-11-17 16:30:00",
+  "framework": "vLLM",
+  "version": "0.6.1"
+}
