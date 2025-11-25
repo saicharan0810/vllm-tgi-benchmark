@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/vllm-tgi-benchmark.git
+git clone https://github.com/saicharan0810/vllm-tgi-benchmark.git
 cd vllm-tgi-benchmark
 
 # Install vLLM
